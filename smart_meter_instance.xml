@@ -1,0 +1,11 @@
+<smart_meter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="smart_meter_cim.xsd">
+
+	<mRID>Smart Meter Schneider_#12</mRID>
+	<name>ibirité_ifmg_smart_meter_#12</name>
+	<nominalVoltage>220</nominalVoltage>
+	<maxCurrent>100</maxCurrent>
+	<operationalFrequency>60</operationalFrequency>
+	<phases>ABCN</phases>
+
+</smart_meter>

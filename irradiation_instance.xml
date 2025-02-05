@@ -1,0 +1,11 @@
+<irradiation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="irradiation_cim.xsd">
+
+	<mRID>irradiation_#12</mRID>
+	<name>ibirité_ifmg_irradiation_#12</name>
+	<dataProvider>Atlas Solarimétrico</dataProvider>
+	<latitude>-20.03</latitude>
+	<longitude>-44.03</longitude>
+	<annual>5000</annual>
+
+</irradiation>

@@ -1,0 +1,9 @@
+<pv_inverter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="pv_inverter_cim.xsd">
+	<mRID>growatt_#12</mRID>
+	<name>ibirité_ifmg_growatt_#12</name>
+	<ratedACPower>75000</ratedACPower>
+	<gridTied>true</gridTied>
+	<ratedU>1100</ratedU>
+	<efficiencyInverter>0.983</efficiencyInverter>
+</pv_inverter>

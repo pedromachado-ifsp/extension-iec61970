@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="pv_inverter">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="mRID" minOccurs="1"/>
+				<xs:element name="name" minOccurs="1"/>
+				<xs:element name="ratedACPower" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="gridTied" type="xs:boolean" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="ratedU" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="efficiencyInverter" minOccurs="0" maxOccurs="1">
+				  <xs:simpleType>
+					<xs:restriction base="xs:decimal">
+					  <xs:minInclusive value="0"/>
+					  <xs:maxInclusive value="1"/>
+					</xs:restriction>
+				  </xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>   
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+		<xs:element name="smart_meter">
+		
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="mRID" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="name" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="nominalVoltage" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="maxCurrent" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="operationalFrequency" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="phases" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					</xs:sequence>
+			</xs:complexType>
+	
+		</xs:element>
+
+</xs:schema>

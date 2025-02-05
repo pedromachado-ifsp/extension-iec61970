@@ -1,0 +1,12 @@
+<pv_array xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="pv_array_cim.xsd">
+	<mRID>array_#12</mRID>
+	<name>ibirité_ifmg_array_#12</name>
+	<numberModuleInSeries>10</numberModuleInSeries>
+	<numberStringInParallel>3</numberStringInParallel>
+	<oversizing>1.5</oversizing>
+	<trackMode>one-axis track</trackMode>
+	<maxDCOutputVoltage>1100</maxDCOutputVoltage>
+	<tiltAngle>12.5</tiltAngle>
+	<azimuthalAngle>0.3</azimuthalAngle>
+</pv_array>

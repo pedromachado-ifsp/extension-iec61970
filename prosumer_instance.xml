@@ -1,0 +1,16 @@
+<prosumer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="prosumer_cim.xsd">
+	<mRID>UC_999.026-12</mRID>
+	<name>ibirité_ifmg_usina_75kW</name>
+	<latitude>-20.03</latitude>
+	<longitude>-44.03</longitude>
+	<pvPlantACRatedP>75000</pvPlantACRatedP>
+	<pvPlantDCRatedP>100000</pvPlantDCRatedP>
+	<commissioningDate>2021-05-01</commissioningDate>
+	<systemUpdate>2023-02-12</systemUpdate>
+	<description>Usina Fotovoltaica do IFMG Campus Ibirité</description>
+	<location>R. Mato Grosso - Vista Alegre, Ibirité - MG, 32400-000</location>
+</prosumer>
+
+
+

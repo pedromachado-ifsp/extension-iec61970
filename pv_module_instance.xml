@@ -1,0 +1,10 @@
+<pv_module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="pv_module_cim.xsd">
+	<mRID>canadian_520W_#12</mRID>
+	<name>ibirité_ifmg_canadian_520W</name>
+	<lengthPanel>2266</lengthPanel>
+	<widthPanel>1134</widthPanel>
+	<efficiencyPanel>0.202</efficiencyPanel>
+	<cellType>mono-Si</cellType>
+	<maxPanelPower>520</maxPanelPower>
+</pv_module>

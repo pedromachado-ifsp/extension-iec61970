@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="pv_module">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="mRID" minOccurs="1"/>
+				<xs:element name="name" minOccurs="1"/>
+				<xs:element name="lengthPanel" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="widthPanel" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="efficiencyPanel" minOccurs="1" maxOccurs="1">
+				  <xs:simpleType>
+					<xs:restriction base="xs:decimal">
+					  <xs:minInclusive value="0"/>
+					  <xs:maxInclusive value="1"/>
+					</xs:restriction>
+				  </xs:simpleType>
+				</xs:element>
+				<xs:element name="cellType">
+				  <xs:simpleType>
+					<xs:restriction base="xs:string">
+					  <xs:enumeration value="mono-Si"/>
+					  <xs:enumeration value="multi-Si"/>
+					  <xs:enumeration value="thin-film"/>
+					  <xs:enumeration value="other"/>
+					</xs:restriction>
+				  </xs:simpleType>
+				</xs:element>
+				<xs:element name="maxPanelPower" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>   
+</xs:schema>
